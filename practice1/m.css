@@ -1,0 +1,41 @@
+h1 {
+	text-shadow: black;
+	text-align: center;
+	color: black;
+	font-family: "Arial", Times, serif;
+	font-style: bold;
+	font-size: 40px;
+	background-color: white;
+	border-color: black;
+	border: groove;
+
+}
+body {
+	background-color: coral;
+  
+    padding.top: 50px;
+    padding.bottom: 50px;
+    border: groove;
+
+}
+#dogd{
+  text-align: center;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  	background-color: white;
+}
+
+div{
+   background-color:white;
+   text-align: center;
+   top:50px;
+   border:groove;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }

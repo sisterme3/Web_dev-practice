@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<link href="m.css" rel="stylesheet" type="text/css">
+<title> Practice</title>
+</head>
+<body>
+<h1>
+	Welcome to my first page!
+</h1>
+
+ <div id="dogd"> 
+ 	<h2>It's a whole bunch of things, but not really.</h2>
+       <button type="button" onclick="hello()">Click me</button>
+    <p>Clicks: <a id="clicks">0</a></p>
+<script type="text/javascript">
+	var clicks = 0;
+    function hello() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+</script>
+
+<table class="center">
+	<th> Counting Pieces </th>
+  <tr>
+    <td>50 pcs</td>
+    <td>100</td>
+    <td>500</td>
+  </tr>
+  <tr>
+    <td>10 pcs</td>
+    <td>5</td>
+    <td>50</td>
+  </tr>
+</table>
+
+<img src="dog.gif" alt="doggiedog" height=250px width=400px id="dog"/>
+
+
+ <iframe width="500" height="250" src="https://www.youtube.com/embed/QH2-TGUlwu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ </div>   
+
+</body>
+
+</html>
